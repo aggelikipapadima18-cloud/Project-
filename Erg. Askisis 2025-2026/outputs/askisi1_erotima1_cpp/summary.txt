@@ -1,0 +1,8 @@
+Input image: ..\Images\Ασκηση 1\moon.jpg
+Original shape: (256, 256)
+Original min/max: 0 / 255
+Stretched min/max: 0 / 255
+Tested cutoff radii: 15, 25, 35, 45, 60
+Selected cutoff radius: 35
+Reconstruction MSE after lowpass filtering: 129.135
+Outputs saved to: ..\outputs\askisi1_erotima1_cpp

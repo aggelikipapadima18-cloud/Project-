@@ -1,0 +1,14 @@
+{
+  "target_snr_db": 10,
+  "noise_power": 2079.3879,
+  "actual_snr_db": 10,
+  "estimated_noise_power_unknown_case": 2238.7678,
+  "part_a_metrics": {
+    "noisy": {"mse": 2079.3879, "psnr_db": 14.951448},
+    "known_noise_wiener": {"mse": 799.10704, "psnr_db": 19.104754},
+    "unknown_noise_wiener": {"mse": 769.47533, "psnr_db": 19.268857}
+  },
+  "part_b_status": "MATLAB psf.p needs MATLAB export; the C++ program writes the MATLAB export file.",
+  "psf_export_file": "..\outputs\askisi4_restoration_cpp\askisi4_export_psf_from_matlab.m",
+  "psf_p_path": "..\Images\Ασκηση 4\psf.p"
+}

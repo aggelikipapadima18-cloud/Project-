@@ -1,0 +1,6 @@
+Adaptive kernel size selected: (64, 64)
+Candidate kernels: (32, 32), (64, 64), (128, 128)
+
+dark_road_1: original_std=23.5305, global_std=66.8458, adaptive_std=33.763, adaptive_noise_proxy=21.6205
+dark_road_2: original_std=28.1532, global_std=65.9779, adaptive_std=41.3053, adaptive_noise_proxy=26.0462
+dark_road_3: original_std=21.6403, global_std=70.1142, adaptive_std=33.1219, adaptive_noise_proxy=17.589

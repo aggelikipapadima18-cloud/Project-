@@ -1,0 +1,17 @@
+{
+  "block_size": 32,
+  "original_shape": [1500, 2250],
+  "padded_shape": [1504, 2272],
+  "metrics": {
+    "5": {"zonal_mse": 31.2322, "threshold_mse": 16.9983},
+    "10": {"zonal_mse": 16.0844, "threshold_mse": 8.44856},
+    "15": {"zonal_mse": 11.2126, "threshold_mse": 5.0111},
+    "20": {"zonal_mse": 8.18151, "threshold_mse": 3.20111},
+    "25": {"zonal_mse": 6.0544, "threshold_mse": 2.112},
+    "30": {"zonal_mse": 4.42318, "threshold_mse": 1.41716},
+    "35": {"zonal_mse": 3.24454, "threshold_mse": 0.955408},
+    "40": {"zonal_mse": 2.38181, "threshold_mse": 0.635726},
+    "45": {"zonal_mse": 1.77776, "threshold_mse": 0.420834},
+    "50": {"zonal_mse": 1.38477, "threshold_mse": 0.272958}
+  }
+}

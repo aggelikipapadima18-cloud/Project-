@@ -1,0 +1,31 @@
+{
+  "target_snr_db": 15,
+  "impulse_density": 0.2,
+  "gaussian_noise_power": 0.0058444328,
+  "gaussian_actual_snr_db": 15,
+  "gaussian_case": {
+    "noisy_metrics": {"mse": 0.00584443, "psnr_db": 22.3326},
+    "filters": {
+      "mean_3": {"mse": 0.00670784, "psnr_db": 21.7342},
+      "median_3": {"mse": 0.00595529, "psnr_db": 22.251},
+      "mean_5": {"mse": 0.0174006, "psnr_db": 17.5944},
+      "median_5": {"mse": 0.0154231, "psnr_db": 18.1183}
+    }
+  },
+  "impulse_case": {
+    "noisy_metrics": {"mse": 0.0694994, "psnr_db": 11.5802},
+    "filters": {
+      "mean_3": {"mse": 0.0186064, "psnr_db": 17.3034},
+      "median_3": {"mse": 0.00886349, "psnr_db": 20.524},
+      "mean_5": {"mse": 0.0246786, "psnr_db": 16.0768},
+      "median_5": {"mse": 0.0163977, "psnr_db": 17.8522}
+    }
+  },
+  "combined_case": {
+    "noise_power": 0.0058444328,
+    "noisy_metrics": {"mse": 0.0738179, "psnr_db": 11.3184},
+    "mean_then_median": {"mse": 0.019762, "psnr_db": 17.0417},
+    "median_then_mean": {"mse": 0.0115735, "psnr_db": 19.3654},
+    "recommended_order": "median_then_mean"
+  }
+}

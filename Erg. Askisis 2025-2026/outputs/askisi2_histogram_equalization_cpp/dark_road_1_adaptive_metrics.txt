@@ -1,0 +1,3 @@
+kernel=(32, 32) contrast_std=32.5682 noise_proxy=22.1017
+kernel=(64, 64) contrast_std=33.763 noise_proxy=21.6205
+kernel=(128, 128) contrast_std=33.4642 noise_proxy=20.8453
